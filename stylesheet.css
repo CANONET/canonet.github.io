@@ -4,14 +4,14 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(https://drive.google.com/file/d/1QUpIbPcX5khrE4CDu3_WUvMnAORnhtmz/view?usp=sharing), url(https://drive.google.com/file/d/1QUpIbPcX5khrE4CDu3_WUvMnAORnhtmz/view?usp=sharing), url(https://drive.google.com/file/d/1QUpIbPcX5khrE4CDu3_WUvMnAORnhtmz/view?usp=sharing);
+  background-image: url(/imagefile/IMG_4955.jpeg), url(/imagefile/IMG_2669.jpg), url(/imagefile/IMG_3909.jpg);
   animation: fadeSlideImg 15s ease-out infinite;
   animation-delay: 5s;
 }
 
 @keyframes fadeSlideImg {
-  0% { background-image: url(https://drive.google.com/file/d/1QUpIbPcX5khrE4CDu3_WUvMnAORnhtmz/view?usp=sharing); }
-  33% { background-image: url(https://drive.google.com/file/d/1QUpIbPcX5khrE4CDu3_WUvMnAORnhtmz/view?usp=sharing); }
-  66% { background-image: url(https://drive.google.com/file/d/1QUpIbPcX5khrE4CDu3_WUvMnAORnhtmz/view?usp=sharing); }
-  100% { background-image: url(https://drive.google.com/file/d/1QUpIbPcX5khrE4CDu3_WUvMnAORnhtmz/view?usp=sharing); }
+  0% { background-image: url(/imagefile/IMG_4955.jpeg); }
+  33% { background-image: url(/imagefile/IMG_2669.jpg); }
+  66% { background-image: url(/imagefile/IMG_3909.jpg); }
+  100% { background-image: url(/imagefile/IMG_4955.jpeg); }
 }
