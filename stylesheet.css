@@ -6,7 +6,7 @@
   background-size: cover;
   background-image: url(/imagefile/IMG_4955.jpeg), url(/imagefile/IMG_2669.jpg), url(/imagefile/IMG_3909.jpg);
   animation: fadeSlideImg 45s ease-out infinite;
-  animation-delay: 15s;
+  animation-delay: 5s;
 }
 
 @keyframes fadeSlideImg {
