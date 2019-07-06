@@ -15,3 +15,8 @@
   66% { background-image: url(/imagefile/IMG_3909.jpg); }
   100% { background-image: url(/imagefile/IMG_4955.jpeg); }
 }
+
+body {
+　　background-color: black;
+　　color: white;
+}
