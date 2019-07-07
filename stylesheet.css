@@ -87,6 +87,7 @@ font-family: 'Miriam Libre', sans-serif;
 .title{
   position   : fixed;
   display    : inline-block;
+  padding    : 60px;
   color      : black;
   top        : 50%;                               /* 中央寄せ */
   left       : 13%;
