@@ -87,13 +87,12 @@ font-family: 'Miriam Libre', sans-serif;
 .title{
   position   : fixed;
   display    : inline-block;
-  padding    : 60px;
+  margin    : 155px;
   color      : black;
-  top        : 50%;                               /* 中央寄せ */
-  left       : 13%;
+  top        : 38%;
+  left       : 165px;                             /* 中央寄せ */
   transform  : translate(-50%,-50%);
   z-index    : 11;
-  font-size :80px;
-
+  font-size :100px;
 }
 </style>
