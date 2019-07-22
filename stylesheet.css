@@ -1,5 +1,17 @@
 <style type="text/css">
+body {
+    animation: fadeIn 2s ease 0s 1 normal;
+}
 
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
   /*600px以上で適用する内容*/
   /* --- 全体のBOX定義 ---------------------------------------- */
   .box {
