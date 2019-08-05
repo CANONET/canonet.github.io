@@ -154,7 +154,7 @@ body {
         position: relative;
         color: #fff;
         z-index: 1;
-        width: 300px;
+        width: 330px;
       }
       .box1::before {
         content: "";
