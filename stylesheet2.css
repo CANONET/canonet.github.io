@@ -101,6 +101,13 @@ left       : -31px;
   z-index    : 10;
   width: 380px;
 
+  
+  
+  background-color: red
+  
+  
+  
+  
   margin: auto ;
 
   color: white;
@@ -211,6 +218,7 @@ left       : -31px;
                 98px 98px #222,
                 99px 99px #222,
                 100px 100px #222;
+  
 }
 
 </style>
