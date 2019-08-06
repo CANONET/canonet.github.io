@@ -1,34 +1,14 @@
 <style type="text/css">
 
   @font-face {
-      font-family: 'GH_7SEGLight';
-      src: url('fonts/GH_7SEGLight.eot');
-      src: url('fonts/GH_7SEGLight.eot?')  format('embedded-opentype'),
-           url('fonts/GH_7SEGLight.woff2') format('woff2'),
-           url('fonts/GH_7SEGLight.woff')  format('woff'),
-           url('fonts/GH_7SEGLight.ttf')   format('truetype'),
-           url('fonts/GH_7SEGLight.svg#GH_7SEGLight') format('svg');
-  }
-
-  @font-face {
   font-family : Helvetica; src: url('fonts/Helvetica.ttc') format("truetype");
   }
   body{
      font-family: "Helvetica";
-
-  }
-
-html {
-    overflow: auto;
-}
-
-body {
     overflow-x: hidden;
     position: relative;
     min-width: 　1000px; /* 指定してもしなくてもいいと思います。指定するとブラウザの幅をち縮めても、横幅が 1000px 以下にはならなくなります。 */
 }
-
-
 
   a{
     position: relative;
@@ -85,24 +65,17 @@ body {
   a:hover { color:#282828; text-decoration:none }
   a:active { color:#282828; text-decoration:none }
 
-
-
 .menu{
   position   : fixed;
   display    : inline-block;
   color      : black;
-  top        : 3%;
+  top        : 50px;
   right       : -160px;                             /* 中央寄せ */
   z-index    : 11;
   font-size :21px;
-    transform  : translate(-50%,-50%);
-
-}
- .menu{
+  transform  : translate(-50%,-50%);
   line-height: 0.2;
 }
-
-
 
 .box{
   position   : fixed;
@@ -145,8 +118,6 @@ body {
                28px 28px #222;
       }
 
-
-
       .box1 {
         display: inline-block;
         font-size: 75px;
@@ -154,7 +125,7 @@ body {
         position: relative;
         color: #fff;
         z-index: 1;
-        width: 330px;
+        width: 300px;
       }
       .box1::before {
         content: "";
@@ -170,25 +141,32 @@ body {
         border-radius: 0px 0px 0 0;
       }
 
-
-
-.h1{
+.box2{
   text-align:center
-display:block
-  width: 100px;
- height: 100px;
- width: 300px;
   display: block;
   margin: 0 auto;
+  font-size: 20px;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 250px;
+   letter-spacing: 10px;
+   font-size: 40px;
 }
 
+.p1 {
+  display: block;
+}
 
+.box3{
+  border-width: 3px;
+  border-style: solid;
+  width: 90%;
+    margin: 10px auto
+}
 
-
-
-
-
-
-
+.box03{
+  height: 2000px;
+}
 
 </style>
