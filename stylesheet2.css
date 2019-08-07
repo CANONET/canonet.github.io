@@ -85,7 +85,7 @@
     z-index    : 10;
     width: 380px;
  color: #FFFFFF;
- font-size: 65px;
+ font-size: 62px;
   letter-spacing: -1px;
  font-family: "Helvetica";
  text-shadow: 1px 1px #222,
@@ -112,20 +112,17 @@
                22px 22px #222,
                23px 23px #222,
                24px 24px #222,
-               25px 25px #222,
-               26px 26px #222,
-               27px 27px #222,
-               28px 28px #222;
+               25px 25px #222;
       }
 
       .box1 {
         display: inline-block;
-        font-size: 75px;
+        font-size: 66px;
         padding: .8em 1.6em .4em .8em;
         position: relative;
         color: #fff;
         z-index: 1;
-        width: 300px;
+        width: 330px;
       }
       .box1::before {
         content: "";
@@ -159,14 +156,38 @@
 }
 
 .box3{
-  border-width: 3px;
+  border-width: 3px 3px 0px 3px;
+  height: 20px;
   border-style: solid;
-  width: 90%;
-    margin: 10px auto
+  width: 97%;
+margin: 10px auto
 }
 
-.box03{
-  height: 2000px;
+.box4{
+  height: 3000px
 }
+.box5{
+  border-width: 0px 3px 3px 3px;
+  border-style: solid;
+  width: 97%;
+  height: 20px;
+  margin: 10px auto
+
+}
+
+.boxf{
+height: 50px;
+}
+
+
+
+
+
+
+.box04{
+text-align:center;
+}
+
 
 </style>
+
