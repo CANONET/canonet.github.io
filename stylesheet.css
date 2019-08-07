@@ -87,7 +87,7 @@ body{
     transform  : translate(-50%,-50%);
     z-index    : 11;
     font-family: "GH_7SEGLight";
-    font-size :30px;
+    font-size :25px;
   }
   p.ff_fredoka {
   font-family: 'Miriam Libre', sans-serif;
@@ -99,7 +99,7 @@ body{
     top        : 55%;
     left       : 20px;                             /* 中央寄せ */
     z-index    : 11;
-    font-size :110px;
+    font-size :100px;
       transform  : translate(0%,-50%);
       color:#282828
   }
@@ -166,9 +166,9 @@ body{
   display    : inline-block;
   color      : black;
   top        : 3%;
-  right       : -160px;                             /* 中央寄せ */
+  left: 215px;                              /* 中央寄せ */
   z-index    : 11;
-  font-size :21px;
+  font-size :18px;
     transform  : translate(-50%,-50%);
 
 }
