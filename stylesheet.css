@@ -1,168 +1,42 @@
-<style type="text/css">
-body {
-    animation: fadeIn 2s ease 0s 1 normal;
-margin: auto;
-max-width: 100%;
-padding: 1rem
-}
-
-body{
-   font-family: "Helvetica";
-   margin: auto;
-}
-
-@keyframes fadeIn {
-    0% {opacity: 0}
-    100% {opacity: 1}
-}
-
-@-webkit-keyframes fadeIn {
-    0% {opacity: 0}
-    100% {opacity: 1}
-}
-  /*600px以上で適用する内容*/
-  /* --- 全体のBOX定義 ---------------------------------------- */
-  .box {
-    position   : relative;
-  /* ---  背景の枠 ---------------------------------------- */
-    max-width  : 100%;
-    height     : 100%;
-
-height: inherit;
-    margin     : auto;
-    overflow   : hidden;  z-index    : 1;
-     -webkit-background-clip: text;  /*背景をテキストでマスクする*/
-  }
-  /* --- 背景の指定 ------------------------------------------- */
-  .box .bgImg {
-       background-position: center center;
-       background-repeat: no-repeat;
-       background-size: cover;
-    position   :  fixed;
-    top        : 0;
-    left       : 0;
-    bottom     : 0;
-    right      : 0;
-    opacity    : 0;
-    animation  : bgAnime 40s infinite;   /* 4画像 × 各10s = 40s */
-  }
-  /* --- 段差で背景画像のアニメーションを実行 ----------------- */
-  .box .src1 {
-    background-image : url(img/1.png);   /* 背景の画像を指定 */
-  }
-  .box .src2 {
-    background-image : url(img/2.png);   /* 背景の画像を指定 */
-    animation-delay  : 10s;
-  }
-  .box .src3 {
-    background-image : url(img/3.png);   /* 背景の画像を指定 */
-    animation-delay  : 20s;
-  }
-  .box .src4 {
-    background-image : url(img/4.png);   /* 背景の画像を指定 */
-    animation-delay  : 30s;
-  }
-  @keyframes bgAnime {
-     0% { opacity: 0; }
-     10% { opacity: 1; }
-    25% { opacity: 1; }
-    35% { opacity: 0; }
-   100% { opacity: 0; }
-  }
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fujita Photo</title>
+    <link rel="stylesheet" href="stylesheet2.css">
+  <body>
+ <div class="box"><p><b>FUJITAPHOTO</b></p></div>
+ <div class="menu">
+   <div class="hidden_box">
+     <div class="tyuuou">
+   <label for="label1">menu.</label>
+   </div>
+   <input type="checkbox" id="label1"/>
+   <div class="hidden_show">
+     <a href="https://canonet.github.io/gallery.html"><p>Photo ></p></a> <br>
+     <a href="https://canonet.github.io/Movie.html"><p>Movie ></p></a> <br>
+     <a href="https://canonet.github.io/"><p>Equipment ></p></a> <br>
+     <a href="https://canonet.github.io/Shear.html"><p>Shear ></p></a>
+   </div>
+   </div>
+ </div>
+ <div class="content">
+   <div class="box1"></div>
+   <div class="box2"><p1>『SHEAR』</p1>  </div>
+   <div class="box3">
+       </div>
+     <div class="box04">
+<br><br><br><br><br>
+<img src="img/QR.png" width="600" height="600">
+<br><br><br><br><br>
 
 
-  @font-face {
-  font-family : Helvetica; src: url('fonts/Helvetica.ttc') format("truetype");
-  }
+     </div>
+     <div class="box5">
+     </div>
+ </div>
+ <div class="boxf">
+ </div>
 
-  /* --- 前面の文字定義（サンプルのため変更してください） ----- */
-
-  a{
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-  }
-  a::after {
-    position: absolute;
-  bottom: 12px;
-    left: 0;
-    content: '';
-    width: 100%;
-    height: 2px;
-    background: white;
-    transform: scale(0, 1);
-    transform-origin: right top;
-    transition: transform .3s;
-  }
-  a:hover::after {
-    transform-origin: left top;
-    transform: scale(1, 1);
-  }
-
-  a:link { color:white; text-decoration:none }
-  a:visited { color:white; text-decoration:none }
-  a:hover { color:white; text-decoration:none }
-  a:active { color:white; text-decoration:none }
-
-
-.tategaki{
-  position   : fixed;
-
-  color      : white;
-  top        : 50%;
-  right:  20px;
-  z-index    : 11;
-  font-size :1.8vh;
-    transform  : translate(-50%,-50%);
-  line-height: 0.2;
-  -webkit-writing-mode: vertical-rl;
-  -ms-writing-mode: tb-rl;
-  writing-mode: vertical-rl;
-}
-
-
-.title{
-padding: 3px;
-letter-spacing: -3px;
-font-size: 10.3vh;
-line-height: 0.83;
-}
-
-.menu{
-  font-size: 2.8vh;
-  line-height: 0.1;
-}
-
-   .kuuhKU1{
-     font-size: 1.3vh;
-     height: 1.3vh;
-  line-height:1.3vh;
-   z-index: 1;
-   color: #CCD0D5;
-   }
-
-.m1{
-  background-color: transparent;
-  color: white;
-  position: relative;
-  z-index: 11;
-  font-size: 8vh;
-  padding: 10px;
-border: 3px solid  white;
-height: 92vh;
-margin: 3vh;
-}
-
-.inline-block_test {
-  display: inline-block;
- vertical-align: top;
-    max-width: 100%;
-    margin: 2vh;
-
-}
-
-.subtitel{
-  font-size: 7vh;
-}
-
-</style>
+</body>
+</html>
