@@ -1,5 +1,4 @@
 <style type="text/css">
-
   @font-face {
   font-family : Helvetica; src: url('fonts/Helvetica.ttc') format("truetype");
   }
@@ -43,7 +42,7 @@ a:hover::after {
   top        : 10px;
   right       : 10px;                             /* 中央寄せ */
   z-index    : 11;
-  font-size :18px;
+  font-size :28px;
   line-height: 0.2;
 }
 
@@ -60,7 +59,7 @@ a:hover::after {
     z-index    : 10;
     width: auto;
  color: #fff;
- font-size: 50px;
+ font-size: 60px;
  line-height: 0.1
   letter-spacing: -1px;
  font-family: "Helvetica";
@@ -104,13 +103,13 @@ margin: 10px auto
 .box4{
   height: 3000px
 }
+
 .box5{
   border-width: 0px 3px 3px 3px;
   border-style: solid;
   width: 97%;
   height: 20px;
   margin: 10px auto
-
 }
 
 .boxf{
@@ -120,6 +119,7 @@ height: 50px;
 .box04{
 text-align:center;
 }
+
 
 .hidden_box{
 display:inline-block;
@@ -152,5 +152,4 @@ padding: 10px 0;
 height: auto;
 opacity: 1;
 }
-
 </style>
