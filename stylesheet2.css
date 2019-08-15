@@ -7,7 +7,7 @@
      font-family: "Helvetica";
     overflow-x: hidden;
     position: relative;
-    min-width: 　1000px; /* 指定してもしなくてもいいと思います。指定するとブラウザの幅をち縮めても、横幅が 1000px 以下にはならなくなります。 */
+    color: #39383e;
 }
 
 a {
@@ -22,7 +22,7 @@ a::after {
   content: '';
   width: 100%;
   height: 2px;
-  background: #333;
+  background: #39383e; /* ライン */
   transform: scale(0, 1);
   transform-origin: right top;
   transition: transform .3s;
@@ -31,34 +31,37 @@ a:hover::after {
   transform-origin: left top;
   transform: scale(1, 1);
 }
-  a:link { color:#282828; text-decoration:none }
-  a:visited { color:#282828; text-decoration:none }
-  a:hover { color:#282828; text-decoration:none }
-  a:active { color:#282828; text-decoration:none }
-
-
+  a:link { color:#39383e; text-decoration:none }
+  a:visited { color:#39383e; text-decoration:none }
+  a:hover { color:#39383e; text-decoration:none }
+  a:active { color:#39383e; text-decoration:none }
 
 .menu{
   position   : fixed;
   display    : inline-block;
   color      : black;
-  top        : 50px;
-  right       : -160px;                             /* 中央寄せ */
+  top        : 10px;
+  right       : 10px;                             /* 中央寄せ */
   z-index    : 11;
-  font-size :21px;
-  transform  : translate(-50%,-50%);
+  font-size :18px;
   line-height: 0.2;
+}
+
+.tyuuou{
+  text-align: left;
+  color: #de7f51
 }
 
 .box{
   position   : fixed;
     display    : inline-block;
-  top        : -58px;
-  left       : 11px;
+  top        : -55px;
+  left       : 8px;
     z-index    : 10;
-    width: 380px;
- color: #FFFFFF;
- font-size: 59px;
+    width: auto;
+ color: #fff;
+ font-size: 50px;
+ line-height: 0.1
   letter-spacing: -1px;
  font-family: "Helvetica";
  text-shadow: 1px 1px #222,
@@ -70,36 +73,8 @@ a:hover::after {
                7px 7px #222,
                8px 8px #222,
                9px 9px #222,
-               10px 10px #222,
-               11px 11px #222,
-               12px 12px #222,
-               13px 13px #222,
-               14px 14px #222,
-               15px 15px #222;
-      }
-
-      .box1 {
-        display: inline-block;
-        font-size: 54px;
-        padding: .8em 1.6em .4em .8em;
-        position: relative;
-        color: #fff;
-        z-index: 1;
-        width: 330px;
-      }
-      .box1::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: -1;
-        background: rgb(34, 34, 34);
-        transform: scaleY(1.3) perspective(.6em) rotateX(5deg);
-        transform-origin: bottom left;
-        border-radius: 0px 0px 0 0;
-      }
+               10px 10px #222;
+  }
 
 .box2{
   text-align:center
@@ -142,14 +117,40 @@ margin: 10px auto
 height: 50px;
 }
 
-
-
-
-
-
 .box04{
 text-align:center;
 }
 
+.hidden_box{
+display:inline-block;
+margin:0;
+padding:0;
+border: solid 1px black;
+}
+/*ボタン装飾*/
+.hidden_box label{
+display:inline-block;
+padding: 15px;
+font-weight: bold;
+cursor :pointer;
+}
+/*ボタンホバー時*/
+.hidden_box label:hover{background: #c4dcf3;}
+/*チェックは見えなくする*/
+.hidden_box input{display: none;}
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show{
+height: 0;
+padding: 0;
+overflow: hidden;
+opacity: 0;
+transition: 0.5s;
+}
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show{
+padding: 10px 0;
+height: auto;
+opacity: 1;
+}
 
 </style>
