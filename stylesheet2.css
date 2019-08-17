@@ -35,19 +35,23 @@ a:hover::after {
   a:hover { color:#39383e; text-decoration:none }
   a:active { color:#39383e; text-decoration:none }
 
+.header{
+  height: 30px;
+}
+
 .menu{
   position   : fixed;
   display    : inline-block;
-  color      : black;
-  top        : 10px;
-  right       : 10px;                             /* 中央寄せ */
+  color      : #39383e;
+  top        : 18px;
+  right       : 18px;                             /* 中央寄せ */
   z-index    : 11;
-  font-size :28px;
-  line-height: 0.2;
+  font-size :31px;
+  line-height: 0.3;
 }
 
 .tyuuou{
-  text-align: left;
+  text-align:center;
   color: #de7f51
 }
 
@@ -101,8 +105,48 @@ margin: 10px auto
 }
 
 .box4{
-  height: 3000px
+  height: auto;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+ /* syasin*/
+#gallery {
+  columns: 450px;
+  column-gap: 10px;
+  margin: 50px;
+
+}
+#gallery img {
+  width: 96%;
+  height: auto;
+  padding: 0px;   /* 写真外枠を白フチに */
+  background-color: #fff;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+/* コメントを画像に重ねる CSS */
+.org p {
+  display: inline-block;
+  width: 100%;
+  position: relative;/* 画像位置を基準に */
+  line-height: 1;
+}
+ /* 写真のなまえ付けれれる*/
+.name {
+  position: absolute;
+  top: 0.8em;       /* テキストの始点 */
+  left: 0.8em;
+  color: transparent;
+  font-weight: bold;
+  z-index: 1;/* position: absolute 指定なので */
+}
+ /* syasin*/
+
 
 .box5{
   border-width: 0px 3px 3px 3px;
@@ -116,9 +160,6 @@ margin: 10px auto
 height: 50px;
 }
 
-.box04{
-text-align:center;
-}
 
 
 .hidden_box{
