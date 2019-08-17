@@ -150,6 +150,8 @@ width: 108%;
 }
  /* syasin*/
 
+
+
 .box5{
   border-width: 0px 3px 3px 3px;
   border-style: solid;
@@ -161,6 +163,8 @@ width: 108%;
 .boxf{
 height: 50px;
 }
+
+
 
 .hidden_box{
 display:inline-block;
@@ -203,4 +207,5 @@ opacity: 1;
 .example {
   float: left;
 }
+
 </style>
