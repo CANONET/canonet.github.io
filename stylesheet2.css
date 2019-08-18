@@ -149,9 +149,6 @@ width: 108%;
   z-index: 1;/* position: absolute 指定なので */
 }
  /* syasin*/
-
-
-
 .box5{
   border-width: 0px 3px 3px 3px;
   border-style: solid;
@@ -163,8 +160,6 @@ width: 108%;
 .boxf{
 height: 50px;
 }
-
-
 
 .hidden_box{
 display:inline-block;
@@ -202,6 +197,7 @@ opacity: 1;
   margin: auto;
   text-align: left;
   width: 200px;
+
 }
 
 .example {
