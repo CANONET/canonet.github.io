@@ -208,11 +208,7 @@ opacity: 1;
 
 
 
-
-
-
-
-
+/*ローディング*/
 #loadingBg {
     position: fixed;
     left: 0;
@@ -240,14 +236,9 @@ opacity: 1;
 }
 #loading #gauge {
     width: 0px;
-    height: 5px;
+    height: 3px;
     background: #de7f51;
 }
-
-
-
-
-
 
 
 
